@@ -35,14 +35,14 @@ int main() {
     printf("Solar Bonus: 150, Total Planets: 8\n\n");
     calculateFuel(1000, 100, 30, 150, 1, 8);
 
-    printf("\n\n");
+    printf("\n");
 
     printf("Test Case 2: Failed Mission\n");
     printf("Initial Fuel: 500, Consumption: 150, Recharge: 20\n");
     printf("Solar Bonus: 100, Total Planets: 8\n\n");
     calculateFuel(500, 150, 20, 100, 1, 8);
 
-    printf("\n\n");
+    printf("\n");
 
     printf("Test Case 3: Close Call Mission\n");
     printf("Initial Fuel: 800, Consumption: 120, Recharge: 50\n");
